@@ -150,44 +150,44 @@ input[type="text"]::content {
     padding-left: 35px;
 }
 
-.wd-grid-row {
+.wd-row-grid {
     clear: both;
 }
 
-.wd-grid-col-main {
+.wd-col-grid-main {
     width: 620px;
     float: left;
 }
 
-.wd-grid-col-left {
+.wd-col-grid-left {
     width: 90%;
     float: left;
 }
 
-.wd-grid-col-book-left {
+.wd-col-grid-book-left {
     width: 48px;
     float: left;
 }
 
-.wd-grid-col-trending-left {
+.wd-col-grid-trending-left {
     float: left;
 }
 
-.wd-grid-col-right {
+.wd-col-grid-right {
     float: right;
 }
 
-.wd-grid-col-book-right {
+.wd-col-grid-book-right {
     width: 90%;
     float: left;
 }
 
-.wd-grid-col-book-main-right {
+.wd-col-grid-book-main-right {
     width: 504px;
     float: left;
 }
 
-.wd-grid-col-trending-right {
+.wd-col-grid-trending-right {
     float: right;
 }
 
