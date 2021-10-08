@@ -1,0 +1,270 @@
+.wd-bg-black {
+    background-color: black;
+}
+
+.wd-bg-dark-grey {
+    background-color: darkgray;
+}
+
+.wd-bg-white {
+    background-color: white;
+}
+
+.wd-bg-red {
+    background-color: red;
+}
+
+.wd-font-family {
+    font-family: "Helvetica Neue";
+}
+
+.wd-text-white {
+    color: white;
+}
+
+.wd-text-blue {
+    color: rgb(29,161,242);
+}
+
+.wd-text-links {
+    color: darkgray;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.wd-text-book-links {
+    color: darkgray;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.wd-text-book-links-selected {
+    color: red;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.wd-text-book-title {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.wd-text-book-handle {
+    color: darkgray;
+    font-size: 13px;
+}
+
+.wd-text-book-author {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.wd-text-book-handle-b {
+    color: darkgray;
+    font-size: 15px;
+}
+
+.wd-text-book-paragraph {
+    color: white;
+    font-size: 15px;
+    width: 506px;
+}
+
+.wd-text-links-selected {
+    color: rgb(29,161,242);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.wd-text-trending-posts {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+.wd-text-trending-author {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.wd-text-trending-posts-title {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.wd-border-top {
+    border-top: 2px solid rgb(47,51,54);
+}
+
+.wd-border {
+    border-left: 2px solid rgb(47,51,54);
+    border-bottom: 2px solid rgb(47,51,54);
+    border-right: 2px solid rgb(47,51,54);
+}
+
+.wd-border-link-bottom {
+    border-bottom: 3px solid rgb(29,161,242);
+}
+
+.wd-border-image {
+    border-radius: 10px;
+}
+
+.wd-border-image-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.wd-circular-image {
+    border-radius: 50%;
+}
+
+.wd-search-style {
+    border-radius: 15px;
+    border: 0;
+    height: 35px;
+    width: 95%;
+    font-size: 15px;
+    text-indent: 35px;
+}
+
+.wd-search-icons i {
+    position: absolute;
+    margin-bottom: 10px;
+}
+
+.wd-inside-icon {
+    padding: 10px;
+    color: gray;
+}
+
+input[type="text"]::content {
+    padding-left: 35px;
+}
+
+.wd-row-grid {
+    clear: both;
+}
+
+.wd-col-grid-main {
+    width: 620px;
+    float: left;
+}
+
+.wd-col-grid-left {
+    width: 90%;
+    float: left;
+}
+
+.wd-col-grid-book-left {
+    width: 48px;
+    float: left;
+}
+
+.wd-col-grid-trending-left {
+    float: left;
+}
+
+.wd-col-grid-right {
+    float: right;
+}
+
+.wd-col-grid-book-right {
+    width: 90%;
+    float: left;
+}
+
+.wd-col-grid-book-main-right {
+    width: 504px;
+    float: left;
+}
+
+.wd-col-grid-trending-right {
+    float: right;
+}
+
+.wd-padding-left {
+    padding-left: 16px;
+}
+
+.wd-padding-text-left {
+    padding-left: 12px;
+}
+
+.wd-padding-book-icons-left {
+    padding-left: 115px;
+}
+
+.wd-padding-text-right {
+    padding-right: 16px;
+}
+
+.wd-padding-image-top {
+    padding-top: 12px;
+}
+
+.wd-padding-gear {
+    padding-top: 2px;
+    padding-right: 12px;
+}
+
+.wd-padding-around {
+    padding: 10px;
+}
+
+.wd-padding-book-around {
+    padding: 12px;
+}
+
+.wd-padding-right-dots {
+    padding-top: 10px;
+    padding-right: 16px;
+}
+
+.wd-padding-left-top-bottom {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.wd-padding-left-top {
+    padding-left: 16px;
+    padding-top: 12px;
+}
+
+.wd-padding-around-image {
+    padding: 10px 16px 10px 10px;
+}
+
+.wd-padding-left-image {
+    padding-left: 72px;
+}
+
+.wd-padding-links-left {
+    padding-left: 65px;
+}
+
+.wd-padding-links-top-bottom {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.wd-padding-book-bottom {
+    padding-bottom: 12px;
+}
+
+
+
+
+
+
+
+
