@@ -1,0 +1,29 @@
+.wd-image-circular {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+
+a.first:link, a.first:visited {
+    color: lightgray;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a.first:hover, a.first:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a.second:link, a.second:visited {
+    color: lightgray;
+    background-color: transparent;
+    text-decoration: none;
+}
+a.second:hover, a.second:active  {
+    color: #2a9fd6;
+    background-color: transparent;
+    text-decoration: none;
+}

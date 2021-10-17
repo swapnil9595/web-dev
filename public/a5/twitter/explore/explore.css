@@ -1,0 +1,108 @@
+.container{
+  padding-top:10px;
+  background-color: black;
+}
+
+.btn{
+border-radius: 20px;
+padding-left: 75px;
+padding-right: 75px;
+}
+
+.wd-follow{
+border-radius: 20px;
+margin-top: 10px;
+padding-left: 20px;
+padding-right: 20px;
+background-color : white;
+color:black;
+border : black;
+
+}
+
+.wd-handle{
+font-size :14px;
+}
+
+.avatar {
+    background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    background-position: top center;
+    border-radius: 50%;
+}
+
+#nasa{
+width: 60px;
+height: 60px;
+background-position: center;
+border-radius: 30%;
+}
+
+.icon-cog {
+  padding-top:12px;
+  color: white;
+}
+
+.search {
+  border-radius: 20px;
+  background-color : rgb(64,64,64);
+}
+
+.centre-image{
+    width: 635px;
+    height: 400px;
+}
+
+.text-image{
+    padding-top:10px;
+    width: 120px;
+    height: 90px;
+}
+
+.bottom-left {
+  color: white;
+  position: relative;
+  bottom: 50px;
+  left: 10px;
+}
+
+.search-icon{
+  position: relative;
+  bottom:35px;
+  left:10px;
+
+}
+
+.boxes{
+  position : relative;
+  bottom:45px;
+  width: 635px;
+  height: 100px;
+  border: 1px solid;
+  border-color: rgb(64,64,64,0.5);
+}
+
+.superscript{
+  color : grey;
+  position :relative;
+  padding-left:10px;
+}
+
+.inside-text{
+  color : white;
+  padding-left:10px;
+}
+
+.label{
+  display:inline-block;
+}
+
+.list-group-item{
+  background-color:black;
+  color:white;
+}
+.wd-who{
+  background-color:rgb(32,32,32,0.7);
+}

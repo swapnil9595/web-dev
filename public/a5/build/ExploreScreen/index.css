@@ -1,0 +1,48 @@
+.wd-tweet-button {
+    width: 100%;
+}
+
+
+.wd-bg-color-black{background-color: black; }
+
+
+
+.wd-image-circular {
+    border-radius: 50%;
+    width: 48px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: white;
+    background-color: #212529;
+    border-color: #212529;
+}
+
+.wd-image-square {
+    width: 10px;
+    height: 100px;
+    margin: 4px;
+}
+
+.wd-round-all{
+    border-radius: 60px
+}
+
+.wd-search-icon{
+    position: absolute;
+    top: 6px;
+    left: 8px;
+}
+
+.wd-pad-left{
+    padding-left: 50px;
+}
+
+.wd-bottom-left {
+    position: absolute;
+    bottom: 4px;
+    left: 8px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
