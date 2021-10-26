@@ -1,0 +1,52 @@
+.wd-tweet-button {
+    width: 100%;
+}
+
+.wd-bg-color-black{background-color: black; }
+
+.wd-setting-color{
+    color: #0d6efd;
+}
+
+.wd-image-circular {
+        width: 60px;
+        height: 60px;
+        background-size: cover;
+        background-position: top center;
+        border-radius: 50%;
+}
+
+.wd-image-square {
+    width: 10px;
+    height: 100px;
+    margin: 4px;
+}
+
+.wd-round-all{
+    border-radius: 60px
+}
+
+.wd-search-icon{
+    position: absolute;
+    top: 6px;
+    left: 8px;
+}
+
+.wd-pad-left{
+    padding-left: 48px;
+}
+
+.wd-bottom-left {
+    position: absolute;
+    bottom: 4px;
+    left: 8px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.wd-centre-image{
+  position: relative;
+  width:700px;
+  height:500px;
+}

@@ -1,0 +1,7 @@
+.wd-image-circular {
+        width: 60px;
+        height: 60px;
+        background-size: cover;
+        background-position: top center;
+        border-radius: 50%;
+}
