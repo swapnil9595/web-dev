@@ -12,7 +12,7 @@ import ExploreScreen from "./a6/components/Build/ExploreScreen/ExploreScreen.js"
 
 import Practice7 from "./a7/components/Practice/index";
 import Build7 from "./a7/components/Build/index";
-import Practice8 from "./a8/components/Practice";
+import Practice8 from "./a8/components/Practice/index";
 import Build8 from "./a8/components/Build/index";
 
 function App() {

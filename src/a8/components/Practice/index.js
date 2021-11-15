@@ -18,7 +18,7 @@ const Practice8 = () => {
       <Styles />
       <Classes />
       <Link to="/a6/hello">Hello</Link> |
-      <Link to="/a7/twitter/home">Build</Link>
+      <Link to="/a8/twitter/home">Build</Link>
       <APIExamples />
       <ReduxExamples />
     </>
