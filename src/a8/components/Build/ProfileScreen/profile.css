@@ -1,0 +1,122 @@
+.wd-image-circular {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+
+.wd-profile-image-circular {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  left: 10px;
+  bottom: 30px;
+  border: white 2px solid;
+  flex: 1;
+  zoom: 2;
+}
+
+a.first:link,
+a.first:visited {
+  color: lightgray;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.first:hover,
+a.first:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.second:link,
+a.second:visited {
+  color: lightgray;
+  background-color: transparent;
+  text-decoration: none;
+}
+a.second:hover,
+a.second:active {
+  color: #2a9fd6;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.wd-sub-heading {
+  position: relative;
+  color: gray;
+  bottom: 10px;
+}
+
+.wd-profile-background {
+  position: relative;
+  width: 550px;
+  height: 250px;
+}
+
+.wd-btn-edit {
+  position: relative;
+  bottom: 100px;
+  left: 60px;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.wd-profile-name {
+  position: relative;
+  bottom: 50px;
+  left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.wd-profile-handle {
+  position: relative;
+  bottom: 65px;
+  left: 10px;
+}
+
+.wd-bio {
+  color: white;
+  position: relative;
+  bottom: 50px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.wd-profile-icons {
+  position: relative;
+  color: gray;
+  bottom: 50px;
+  margin-left: 5px;
+}
+
+.wd-profile-stats {
+  color: gray;
+}
+
+.wd-edit-profile {
+  position: relative;
+  padding-right: 30px;
+  color: white;
+}
+
+.wd-save {
+  position: relative;
+  left: 310px;
+  color: black;
+  background-color: white;
+}
+
+.wd-text-field {
+  display: flex;
+  color: white;
+  background-color: black;
+  width: 310%;
+  flex: 2;
+  margin-bottom: 2px;
+}

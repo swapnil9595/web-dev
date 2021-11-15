@@ -12,6 +12,8 @@ import ExploreScreen from "./a6/components/Build/ExploreScreen/ExploreScreen.js"
 
 import Practice7 from "./a7/components/Practice/index";
 import Build7 from "./a7/components/Build/index";
+import Practice8 from "./a8/components/Practice";
+import Build8 from "./a8/components/Build/index";
 
 function App() {
   return (
@@ -37,6 +39,14 @@ function App() {
         <Route path="/a7/twitter">
           <Build7 />
         </Route>
+
+        {/* Assignment 8 */}
+        <Route path={["/a8", "/a8/practice"]} exact={true}>
+          <Practice8 />
+        </Route>
+        <Route path="/a8/twitter">
+          <Build8 />
+        </Route>
       </div>
       <hr />
       <h1>React.js Assignments</h1>
@@ -48,6 +58,10 @@ function App() {
         <li>
           {" "}
           <Link to="/a7">Assignment 7</Link>{" "}
+        </li>
+        <li>
+          {" "}
+          <Link to="/a8">Assignment 8</Link>{" "}
         </li>
       </ul>
     </BrowserRouter>
