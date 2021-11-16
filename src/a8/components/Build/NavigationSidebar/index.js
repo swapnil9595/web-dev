@@ -6,18 +6,18 @@ const NavigationSidebar = ({ active = "explore" }) => {
   return (
     <>
       <div className="list-group">
-        <Link to="/a7" className="list-group-item">
+        <Link to="/a8" className="list-group-item">
           <i className="fab fa-twitter wd-more"></i>
         </Link>
         <Link
-          to="/a7/twitter/home"
+          to="/a8/twitter/home"
           className={`list-group-item ${active === "home" ? "active" : ""}`}
         >
           <i className="fa fa-home wd-more"></i>
           <span className="d-none d-xl-inline ">Home</span>
         </Link>
         <Link
-          to="/a7/twitter/explore"
+          to="/a8/twitter/explore"
           className={`list-group-item ${active === "explore" ? "active" : ""}`}
         >
           <i className="fa fa-hashtag wd-more"></i>
@@ -56,7 +56,7 @@ const NavigationSidebar = ({ active = "explore" }) => {
           <span className="d-none d-xl-inline">Lists</span>
         </a>
         <Link
-          to="/a7/twitter/profile"
+          to="/a8/twitter/profile"
           className={`list-group-item ${active === "profile" ? "active" : ""}`}
         >
           <i className="fa fa-user wd-more"></i>

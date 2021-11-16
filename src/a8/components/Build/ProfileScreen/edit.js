@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 import "./profile.css";
+import { updateCurrentProfile } from "../../../../services/profile-service";
 
 const Edit = () => {
   const history = useHistory();
@@ -12,15 +13,16 @@ const Edit = () => {
   const dispatch = useDispatch();
 
   const handleSubmit = (event) => {
-    dispatch({ type: "edit-profile", profile: editedProfile });
-    history.push("/a7/twitter/profile");
+    updateCurrentProfile(dispatch, editedProfile);
+    /*dispatch({ type: "edit-profile", profile: editedProfile });*/
+    history.push("/a8/twitter/profile");
   };
 
   return (
     <div>
       <div>
         <h5>
-          <Link to="/a7/twitter/profile">
+          <Link to="/a8/twitter/profile">
             <i className="fas fa-times fa-sm wd-edit-profile"></i>
           </Link>
           Edit Profile
