@@ -25,12 +25,14 @@ const Profile = () => {
         <img
           src="../../../../images/matrix.jpeg"
           className="wd-profile-background"
+          alt="matrix"
         />
       </div>
       <div>
         <img
           src="../../../../images/dp.jpg"
           className="wd-profile-image-circular"
+          alt="dp"
         />
       </div>
       <div className="row">

@@ -1,18 +1,20 @@
 import profile_data from "./data/profile.json";
 
-const profile = (state = profile_data[0], action) => {
+const initialState = {
+  profile: profile_data[0],
+  isEdit: false,
+};
+const profile = (state = initialState, action) => {
   switch (action.type) {
     case "fetch-profile":
-      return state;
+      return state.profile;
     case "edit-profile":
       return {
-        _id: new Date().getTime() + "",
-        profilePicture: "../../images/dp.jpg",
-        bannerPicture: "../../images/matrix.jpg",
-        ...action.profile,
-        dateJoined: "September 2020",
-        followingCount: 312,
-        followersCount: 180,
+        profile: {
+          _id: new Date().getTime() + "",
+          ...action.profile,
+        },
+        isEdit: true,
       };
     default:
       return state;

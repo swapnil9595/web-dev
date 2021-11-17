@@ -12,13 +12,13 @@ const Practice8 = () => {
   return (
     <>
       <h1>Practice</h1>
+      <Link to="/a6/hello">Hello</Link> |
+      <Link to="/a8/twitter/home">Build</Link>
       <TodoList />
       <TodoItem />
       <ConditionalOutput />
       <Styles />
       <Classes />
-      <Link to="/a6/hello">Hello</Link> |
-      <Link to="/a8/twitter/home">Build</Link>
       <APIExamples />
       <ReduxExamples />
     </>
