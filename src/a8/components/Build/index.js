@@ -4,7 +4,6 @@ import { Route } from "react-router-dom";
 import HomeScreen from "./HomeScreen/HomeScreen";
 import ExploreScreen from "./ExploreScreen/ExploreScreen";
 import ProfileScreen from "./ProfileScreen/ProfileScreen";
-import EditProfile from "./ProfileScreen/EditProfile";
 import who from "../../reducers/who";
 import profile from "../../reducers/profile";
 import { combineReducers, createStore } from "redux";
@@ -32,11 +31,6 @@ const Build8 = () => {
           path="/a8/twitter/profile"
           exact={true}
           component={ProfileScreen}
-        />
-        <Route
-          path="/a8/twitter/editprofile"
-          exact={true}
-          component={EditProfile}
         />
       </div>
     </Provider>

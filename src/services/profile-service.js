@@ -6,16 +6,26 @@ export const getCurrentProfile = (dispatch) =>
     .then((profile) =>
       dispatch({
         type: "fetch-profile",
-        profile,
+        payload: profile,
       })
     );
 
 export const updateCurrentProfile = (dispatch, profile) =>
   fetch(PROFILE_API, {
     method: "PUT",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(profile),
   }).then((response) =>
     dispatch({
       type: "edit-profile",
-      profile,
+      payload: profile,
     })
   );
+
+export const updateIsEdit = (dispatch, value) =>
+  dispatch({
+    type: "update-edit-profile",
+    payload: value,
+  });

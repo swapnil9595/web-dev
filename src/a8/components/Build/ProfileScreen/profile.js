@@ -2,14 +2,12 @@ import React from "react";
 import "./profile.css";
 import { Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import { getCurrentProfile } from "../../../../services/profile-service";
-import { useEffect } from "react";
+import { updateIsEdit } from "../../../../services/profile-service";
 
 const Profile = () => {
-  const profile = useSelector((state) => state.profile);
+  const profile = useSelector((state) => state.profile.profile);
+  console.log("profile", profile);
   const dispatch = useDispatch();
-  useEffect(() => getCurrentProfile(dispatch), []);
-  console.log(profile);
 
   return (
     <div>
@@ -42,11 +40,12 @@ const Profile = () => {
           </h5>
         </div>
         <div className="col-4">
-          <Link to="/a8/twitter/editprofile">
-            <button class="btn btn-default wd-btn-edit rounded-pill">
-              Edit Profile
-            </button>
-          </Link>
+          <button
+            class="btn btn-default wd-btn-edit rounded-pill"
+            onClick={() => updateIsEdit(dispatch, true)}
+          >
+            Edit Profile
+          </button>
         </div>
       </div>
       <div className="wd-sub-heading wd-profile-handle">@smitten</div>

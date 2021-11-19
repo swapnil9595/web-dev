@@ -1,20 +1,26 @@
 import profile_data from "./data/profile.json";
 
 const initialState = {
-  profile: profile_data[0],
+  profile: {},
   isEdit: false,
 };
 const profile = (state = initialState, action) => {
   switch (action.type) {
     case "fetch-profile":
-      return state.profile;
-    case "edit-profile":
       return {
-        profile: {
-          _id: new Date().getTime() + "",
-          ...action.profile,
-        },
-        isEdit: true,
+        ...state,
+        profile: action.payload,
+      };
+    case "edit-profile":
+      console.log("in Edit", state, action.payload);
+      return {
+        profile: action.payload,
+        isEdit: false,
+      };
+    case "update-edit-profile":
+      return {
+        ...state,
+        isEdit: action.payload,
       };
     default:
       return state;

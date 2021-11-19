@@ -6,16 +6,12 @@ import "./profile.css";
 import { updateCurrentProfile } from "../../../../services/profile-service";
 
 const Edit = () => {
-  const history = useHistory();
-
-  const profile = useSelector((state) => state.profile);
+  const profile = useSelector((state) => state.profile.profile);
   const [editedProfile, updateProfile] = useState(profile);
   const dispatch = useDispatch();
 
   const handleSubmit = (event) => {
     updateCurrentProfile(dispatch, editedProfile);
-    /*dispatch({ type: "edit-profile", profile: editedProfile });*/
-    history.push("/a8/twitter/profile");
   };
 
   return (
@@ -26,11 +22,7 @@ const Edit = () => {
             <i className="fas fa-times fa-sm wd-edit-profile"></i>
           </Link>
           Edit Profile
-          <button
-            onClick={handleSubmit}
-            type="submit"
-            className="wd-save btn rounded-pill"
-          >
+          <button onClick={handleSubmit} className="wd-save btn rounded-pill">
             Save
           </button>
         </h5>
