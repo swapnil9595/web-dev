@@ -14,6 +14,8 @@ import Practice7 from "./a7/components/Practice/index";
 import Build7 from "./a7/components/Build/index";
 import Practice8 from "./a8/components/Practice/index";
 import Build8 from "./a8/components/Build/index";
+import Practice9 from "./a9/components/Practice/index";
+import Build9 from "./a9/components/Build/index";
 
 function App() {
   return (
@@ -47,6 +49,14 @@ function App() {
         <Route path="/a8/twitter">
           <Build8 />
         </Route>
+
+        {/* Assignment 9 */}
+        <Route path={["/a9", "/a8/practice"]} exact={true}>
+          <Practice9 />
+        </Route>
+        <Route path={["/a9/build", "/a9/twitter"]}>
+          <Build9 />
+        </Route>
       </div>
       <hr />
       <h1>React.js Assignments</h1>
@@ -62,6 +72,10 @@ function App() {
         <li>
           {" "}
           <Link to="/a8">Assignment 8</Link>{" "}
+        </li>
+        <li>
+          {" "}
+          <Link to="/a9">Assignment 9</Link>{" "}
         </li>
       </ul>
     </BrowserRouter>
